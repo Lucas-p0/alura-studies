@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "/Projetos/ReactTypeScript/alura-studies/src/components/Button";
+import Botao from "/Projetos/ReactTypeScript/alura-studies/src/components/Button";
 
 class Formulario extends React.Component {
   render() {
@@ -27,7 +27,7 @@ class Formulario extends React.Component {
             required
           />
         </div>
-        <Button />
+        <Botao></Botao>
       </form>
     );
   }
