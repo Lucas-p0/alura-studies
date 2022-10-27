@@ -12,15 +12,14 @@ function Lista (){
         <aside>
             <h2>Estudos do dia</h2>
             <ul>
-                {tarefa.map((tarefa, index) => (
-                    <li>
-                        <h3></h3>
-                        <span></span>
+                {tarefa.map((item, index) => (
+                    <li key={index}>
+                        <h3>{item.tarefa}</h3>
+                        <span>{item.tempo}</span>
                     </li>
                 ))}
                 <li>
-                    <h3>
-                    </h3>
+                    <h3>Cadê</h3>
                     <span>
                         02:00:00
                     </span>
