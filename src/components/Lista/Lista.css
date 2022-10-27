@@ -1,0 +1,29 @@
+.lista {
+
+    box-sizing: border-box;
+    background-color: #212534;
+    color: rgb(233, 213, 213);
+    width: 250px;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 6px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.lista h2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.lista ul {
+    background-color: rgb(90, 93, 97);
+    width: 120px;
+    margin: 0 auto;
+    list-style: none;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
