@@ -5,8 +5,7 @@ import '../Formulario/Formulario.css'
 class Formulario extends React.Component {
   render() {
     return (
-      <form className="formulario">
-        <div className="container">
+      <form className="formulario">        
           <div>
             <label htmlFor="tarefa">Adicione um novo estudo: </label>
             <input
@@ -28,8 +27,7 @@ class Formulario extends React.Component {
               max="01:30:00"
               required
             />
-          </div>
-        </div>
+          </div>        
         <Botao/>
       </form>
     );

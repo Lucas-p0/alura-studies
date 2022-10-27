@@ -4,4 +4,12 @@
     justify-content: center;
     width: 250px;
     margin: 0 auto;
+    background-color: #212534;
+    color: rgb(233, 213, 213);
+    width: 250px;
+
+}
+
+.formulario label input {
+    margin: 0 auto;
 }
