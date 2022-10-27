@@ -1,12 +1,15 @@
 import React from 'react';
+import '../Button/Button.css';
 
-class Botao extends React.Component {
-    render() {
-       return (
-           <button>
-             Botão
-           </button>
-          )
-       }
-    }
-  export default Botao; 
+function Botao () {
+    
+  return (
+    <button className="botao">
+      Botão
+    </button>
+  )
+}
+    
+export default Botao; 
+
+   
