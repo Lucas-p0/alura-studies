@@ -12,4 +12,5 @@
 
 .formulario label input {
     margin: 0 auto;
+    max-width: 100%;
 }
